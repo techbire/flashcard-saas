@@ -12,13 +12,13 @@ body {
 }
 
 .MuiButton-containedPrimary {
-  background-color: #1976d2;
+  background-color: #F87317;
   color: white;
 }
 
 .MuiButton-outlinedPrimary {
-  border-color: #1976d2;
-  color: #1976d2;
+  border-color: #F87317;
+  color: #F87317;
 }
 
 .MuiButton-containedSecondary {
