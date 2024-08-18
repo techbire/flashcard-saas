@@ -95,22 +95,6 @@ To deploy the application, follow these steps:
 
    For Vercel, you can directly connect your GitHub repository and configure deployment settings in the Vercel dashboard.
 
-## Contributors
 
-- [Saad Hameed](https://github.com/smeed03)
-- [Danillo Miqui](https://github.com/danillomiqui-commits)
-- Ryan
-
-Contributions are welcome! Please open an issue or submit a pull request if you have suggestions or improvements.
-
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Commit and push your changes
-5. Open a pull request
-
----
-
-Feel free to adjust the content as needed to match your specific project details and setup.
 
 
