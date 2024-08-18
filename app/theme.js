@@ -7,7 +7,7 @@ const lightTheme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: '#1976d2', // Example primary color
+      main: '#F87317', // Example primary color
     },
     background: {
       default: '#f5f5f5', // Background color for light mode
