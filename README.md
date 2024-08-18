@@ -1,4 +1,7 @@
 # [Flashcard AI SaaS](https://flashcard-ai-saas.vercel.app/)
+![1](assets/1.png)
+[Demo video](https://www.youtube.com/watch?v=h3deLl9D_Ik)
+
 
 ## Overview
 
