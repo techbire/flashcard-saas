@@ -1,32 +1,29 @@
 # [Flashcard AI SaaS](https://flashcard-ai-saas.vercel.app/)
-[Demo video](https://www.youtube.com/watch?v=h3deLl9D_Ik)
-
+[Demo Video](https://www.youtube.com/watch?v=h3deLl9D_Ik)
 
 ![1](assets/1.png)
 
-
 ## Overview
 
-Flashcard AI SaaS is a web application designed to help users create, manage, and review flashcards using advanced AI features. The application leverages AI to generate, customize, and analyze flashcards, making studying more efficient and effective.
+Flashcard AI SaaS is a cutting-edge web application designed to enhance the learning experience by allowing users to create, manage, and review flashcards using advanced AI features. The platform leverages AI, specifically the Gemini LLM, to generate, customize, and analyze flashcards, making the study process more efficient and tailored to individual needs. Users can save their collections of flashcards securely with their registered accounts.
 
 ## Features
 
-- **AI-Powered Flashcards**: Automatically generate flashcards based on user input and AI suggestions.
-- **Customizable Flashcards**: Create and modify flashcards with personalized content.
-- **Review Modes**: Various review modes including spaced repetition to enhance learning.
-- **Analytics**: Track progress and performance with detailed analytics and insights.
-- **User Authentication**: Secure login and user management.
+- **AI-Powered Flashcards**: Automatically generate flashcards based on user input and suggestions from the Gemini LLM, ensuring comprehensive coverage of study materials.
+- **User Authentication**: Secure login and user management using Clerk, allowing users to save and access their flashcard collections.
+- **Data Storage**: Flashcard collections are stored securely in Firebase Database with registered user account.
+- **Payment Integration**: A payment system is planned with Stripe, though it is not yet implemented.
 
 ## Technologies
 
 - **Frontend**: React, Next.js
 - **Backend**: Node.js
-- **AI Integration**: OpenAI API
+- **AI Integration**: Gemini LLM 
 - **Database**: Firebase Datastore
 - **Deployment**: Netlify
 - **CI/CD**: Netlify
 - **Authentication**: Clerk
-- **Payment**: Stripe
+- **Payment**: Stripe (Planned)
 
 ## Installation
 
@@ -40,8 +37,8 @@ Flashcard AI SaaS is a web application designed to help users create, manage, an
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/AswinKumar1/flashcard-ai-saas.git
-   cd flashcard-ai-saas
+   git clone https://github.com/techbire/flashcard-saas.git
+   cd flashcard-saas
    ```
 
 2. **Install Dependencies**
@@ -96,10 +93,7 @@ To deploy the application, follow these steps:
    yarn build
    ```
 
-2. **Deploy to Vercel**
+2. **Deploy to Netlify**
 
-   For Vercel, you can directly connect your GitHub repository and configure deployment settings in the Vercel dashboard.
-
-
-
+   You can directly connect your GitHub repository and configure deployment settings in the Netlify dashboard.
 
