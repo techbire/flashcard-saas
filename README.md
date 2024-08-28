@@ -23,8 +23,8 @@ Flashcard AI SaaS is a web application designed to help users create, manage, an
 - **Backend**: Node.js
 - **AI Integration**: OpenAI API
 - **Database**: Firebase Datastore
-- **Deployment**: Vercel
-- **CI/CD**: Vercel
+- **Deployment**: Netlify
+- **CI/CD**: Netlify
 - **Authentication**: Clerk
 - **Payment**: Stripe
 
